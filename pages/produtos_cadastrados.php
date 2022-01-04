@@ -214,11 +214,11 @@
                                         <?php echo "R$", $ress['valor']?>
                                     </th>
                                     <th>
-                                        <?php echo $ress['produto_id']?>
+                                        <?php echo $ress['id']?>
                                     </th>
                                     <th>
                                     <a href="javascript: if(confirm('Tem certeza que deseja deletar esse item: <?php echo $ress['nome']?>'))
-                                    location.href='../pedidos/deletar_produtos.php?p=deletar_produtos.php&usuario=<?php echo $ress['produto_id'];?>'; ">Deletar</a>                                      
+                                    location.href='../pedidos/deletar_produtos.php?p=deletar_produtos.php&usuario=<?php echo $ress['id'];?>'; ">Deletar</a>                                      
                                     <a href="">Editar</a>
                                     </th>
                                 </tr>

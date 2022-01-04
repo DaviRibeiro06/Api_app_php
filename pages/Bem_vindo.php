@@ -239,7 +239,7 @@
                   ?>
                         <tr>
                             <th>
-                                <?php echo $ress['usuario_id'] ?>
+                                <?php echo $ress['id'] ?>
                             </th>
                             <th>
                                 <?php echo $ress['email']?>

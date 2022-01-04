@@ -3,7 +3,7 @@
     $banco = 'app_mercantil';
     $host = 'localhost';
     $usuario = 'root';
-    $senha = '';
+    $senha = '1234';
 
 
     date_default_timezone_set('America/Sao_Paulo');
